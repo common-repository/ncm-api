@@ -1,0 +1,37 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ @media (min-width: 576px){
+    .modal-dialog {
+        max-width: 500px;
+        margin: 15rem auto !important; 
+    }
+}
+
+.dataTables_wrapper .dataTables_length select {
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 5px 20px 5px 5px !important;
+    background-color: transparent;
+    /* padding: 4px; */
+}
+
+table.dataTable tbody td {
+    padding: 13px 0px;
+    text-align: center;
+}
+
+
+table.dataTable thead th, table.dataTable thead td {
+    padding: 15px 0px;
+    border-bottom: 1px solid #111;
+    text-align: center;
+}
+
+table.dataTable tfoot th, table.dataTable tfoot td {
+    padding: 15px 0px;
+    border-top: 1px solid #111;
+    text-align: center;
+}
